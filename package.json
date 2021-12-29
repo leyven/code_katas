@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/leyven/code_katas/issues"
   },
-  "homepage": "https://github.com/leyven/code_katas#readme"
+  "homepage": "https://github.com/leyven/code_katas#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jshint": "^2.13.2"
+  }
 }
