@@ -10,16 +10,12 @@ let result = [];
 let zeros = [];
   arr.forEach((element) => {
     if(element===0 ){
-      console.log("tig");
       zeros.push(0);
     }else{
       result.push(element);
     }
   });
   return result.concat(zeros);
-
-  
-}
+};
 let x = moveZeros([9,0,9,1,2,1,1,3,1,9,0,0,9,0,0,0,0,0,0,0]);
 
-console.log( x);
